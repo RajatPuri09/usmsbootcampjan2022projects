@@ -22,7 +22,7 @@ stages{
                       steps{
                           script{
                                  try{
-                                      sh " mvn -f traderjunitapi/pom.xml  test"
+                                      sh " mvn -f netbanking/pom.xml  test"
                                  }
                                  catch(all){
                                       echo "Test Failed"
